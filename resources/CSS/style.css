@@ -3,12 +3,50 @@ body {
   text-align: center;
 }
 
-#home {
-  background-image: url('resources/building.png');
-}
-
 h1 {
   font-size: 70px;
   font-weight: bold;
+  color: white;
+}
+
+#Process h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+.Lower p {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("../building.png");
+}
+
+.header {
+  background-image: url("../building.png");
+}
+
+.header a {
+  font-size: 18px;
+  color: white;
+}
+
+.Footer footer {
+  text-align: left;
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+}
+
+.Footer .f_links a {
+  font-size: 18px;
   color: white;
 }
